@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">WalletApp</string>
+    <string name="title_new_account">Nueva Cuenta</string>
+    <string name="login_name">Nombre</string>
+    <string name="login_mail">Email</string>
+    <string name="login_password">Contraseña</string>
 </resources>
