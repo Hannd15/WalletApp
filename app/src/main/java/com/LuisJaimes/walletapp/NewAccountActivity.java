@@ -22,7 +22,7 @@ public class NewAccountActivity extends AppCompatActivity {
         ivBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(NewAccountActivity.this, MainActivity.this);
+                Intent myIntent = new Intent(NewAccountActivity.this, ListAccountActivity.class);
                 startActivity(myIntent);
             }
         });
