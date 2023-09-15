@@ -25,9 +25,9 @@ public class ListAccountActivity extends AppCompatActivity {
     }
 
     private void loadFakeData(){
-        Account myAccount1 = new Account("Bancolombia", "Cuenta de Ahorros", 215666.0);
-        Account myAccount2 = new Account("Davivienda", "Cuenta debito", 846465431.0);
-        Account myAccount3 = new Account("Efecto", "Efectivo", 984561.0);
+        Account myAccount1 = new Account("Bancolombia", "Cuenta de Ahorros", 215666.0, "https://th.bing.com/th/id/OIP.v7FeDLAz5NNViW1OqcUX1wHaEK?pid=ImgDet&rs=1");
+        Account myAccount2 = new Account("Davivienda", "Cuenta debito", 846465431.0, "https://th.bing.com/th/id/OIP.-fGLTKfGstMZpewFgh9QNQHaIU?pid=ImgDet&rs=1");
+        Account myAccount3 = new Account("Efecto", "Efectivo", 984561.0, "https://i1.sndcdn.com/artworks-vlPwaDU3OFmgIcas-sDgZDg-t500x500.jpg");
         listAccountRV.add(myAccount1);
         listAccountRV.add(myAccount2);
         listAccountRV.add(myAccount3);
