@@ -1,5 +1,5 @@
 # WalletApp
-Proyecto en clase de **Tecnologías móviles**.
-## - Luis Eduardo Jaimes Hernandez
-## - Daniel Leonardo Rodriguez Hernandez
-
+Projecto en clase.
+https://github.com/Hannd15/WalletApp
+## Luis Eduardo Jaimes Hernandez
+## Daniel Leonardo Rodriguez Hernandez
