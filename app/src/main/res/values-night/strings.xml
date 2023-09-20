@@ -1,9 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">WalletApp</string>
-    <string name="title_new_account">Nueva Cuenta</string>
-    <string name="login_name">Nombre</string>
-    <string name="login_mail">Email</string>
-    <string name="login_password">Contraseña</string>
     <string name="nombre">Nombre:</string>
     <string name="restaurante">Restaurante</string>
     <string name="color">Color:</string>
