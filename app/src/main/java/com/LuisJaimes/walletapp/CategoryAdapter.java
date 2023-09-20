@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
@@ -78,6 +79,12 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
         public void loadInfo(Category myCategory) {
             tvNameCategory.setText(myCategory.getName());
             Picasso.get().load(myCategory.getIcon()).fit().into(cvCategory);
+            cvCategory.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Toast.makeText(itemView.getContext(), myCategory.getDescription(), Toast.LENGTH_SHORT).show();
+                }
+            });
         }
     }
 }
